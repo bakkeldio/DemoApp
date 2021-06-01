@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/nav_images"
+    android:id="@+id/images_navigation">
+    <fragment
+        android:id="@+id/nav_images"
+        android:label="Картинки"
+        android:name="com.example.demoapp.presentation.ui.ImageFragment"
+        tools:layout="@layout/images_fragment"/>
+</navigation>
